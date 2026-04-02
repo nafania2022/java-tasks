@@ -1,0 +1,3 @@
+SELECT *
+FROM ip2country
+LIMIT 2 OFFSET 50;

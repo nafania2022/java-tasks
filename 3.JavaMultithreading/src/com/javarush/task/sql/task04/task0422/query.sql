@@ -1,0 +1,1 @@
+select now(), ADDTIME(now(), 0), ADDTIME(now(), '33')

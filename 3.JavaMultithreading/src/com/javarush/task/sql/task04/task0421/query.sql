@@ -1,0 +1,1 @@
+select now(), ADDDATE(now(), 3), SUBDATE(now(), 3)
