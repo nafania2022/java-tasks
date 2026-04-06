@@ -15,23 +15,9 @@ public class Cat {
 
     public static void main(String[] args) {
 
-        cats.add(new Cat());
-        cats.add(new Cat());
-        cats.add(new Cat());
-        cats.add(new Cat());
-        cats.add(new Cat());
-        cats.add(new Cat());
-        cats.add(new Cat());
-        cats.add(new Cat());
-        cats.add(new Cat());
-        cats.add(new Cat());
-
-        printCats();
     }
 
     public static void printCats() {
-        for (Cat cat : cats) {
-            System.out.println(cat);
-        }
+
     }
 }

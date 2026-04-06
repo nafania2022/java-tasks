@@ -5,7 +5,7 @@ package com.javarush.task.task02.task0214;
 */
 public class Solution {
     public static int min(int a, int b) {
-        return Math.min(a, b);
+        return null;
     }
 
     public static void main(String[] args) {

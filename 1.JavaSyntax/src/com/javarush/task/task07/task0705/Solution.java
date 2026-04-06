@@ -9,24 +9,5 @@ import java.io.InputStreamReader;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-
-        int[] ints = new int[20];
-        BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
-        for (int i = 0; i < 20; i++) {
-            ints[i] = Integer.parseInt(r.readLine());
-        }
-
-        int[] arrayOne = new int[10];
-        int[] arrayTwo = new int[10];
-
-
-        for (int i = 0; i < 10; i++) {
-            arrayOne[i] = ints[i];
-            arrayTwo[i] = ints[i + 10];
-        }
-
-        for (int i = 0; i < 10; i++) {
-            System.out.println(arrayTwo[i]);
-        }
     }
 }

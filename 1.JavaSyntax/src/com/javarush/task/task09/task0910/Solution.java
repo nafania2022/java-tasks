@@ -8,11 +8,5 @@ import java.util.ArrayList;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        try {
-            ArrayList<String> list = new ArrayList<>();
-            String s = list.get(18);
-        } catch (IndexOutOfBoundsException t) {
-            System.out.print("IndexOutOfBoundsException");
-        }
     }
 }

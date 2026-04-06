@@ -12,26 +12,6 @@ import java.util.List;
 
 public class Solution {
     public static void main(String[] args) throws IOException {
-        List<String> list = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        int number1 = Integer.parseInt(reader.readLine());
-        int number2 = Integer.parseInt(reader.readLine());
-
-        String string;
-        for (int i = 0; i < number1; i++) {
-            list.add(reader.readLine());
-        }
-
-
-        for (int i = 0; i < number2; i++) {
-            string = list.get(0);
-            list.remove(0);
-            list.add(number1 - 1, string);
-        }
-
-        for (String g : list) {
-            System.out.println(g);
-        }
     }
 }

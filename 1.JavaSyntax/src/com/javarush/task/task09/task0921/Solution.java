@@ -11,21 +11,10 @@ import java.util.List;
 
 public class Solution {
     public static void main(String[] args) {
-        readData();
+
     }
 
     public static void readData() {
 
-        ArrayList<Integer> list = new ArrayList<>();
-        try {
-            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-            while (true) {
-                list.add(Integer.parseInt(reader.readLine()));
-            }
-        } catch (Exception e) {
-            for (Integer integer : list) {
-                System.out.println(integer);
-            }
-        }
     }
 }

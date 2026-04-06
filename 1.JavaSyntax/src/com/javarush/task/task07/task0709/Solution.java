@@ -11,24 +11,6 @@ import java.util.List;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        List<String> list = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
-        for (int i = 0; i < 5; i++) {
-            list.add(reader.readLine());
-        }
-
-        int minL = list.get(0).length();
-        for (int i = 0; i < 5; i++) {
-            if (minL > list.get(i).length())
-                minL = list.get(i).length();
-        }
-
-        for (int i = 0; i < 5; i++) {
-            if (minL == list.get(i).length())
-                System.out.println(list.get(i));
-        }
-
 
     }
 }

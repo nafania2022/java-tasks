@@ -12,14 +12,6 @@ import java.util.List;
 
 public class Solution {
     public static void main(String[] args) throws IOException {
-        List<Integer> list = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        for (int i = 0; i < 10; i++) {
-            list.add(Integer.parseInt(reader.readLine()));
-        }
-        for (int i = 9; i >= 0; i--) {
-            System.out.println(list.get(i));
-        }
     }
 }

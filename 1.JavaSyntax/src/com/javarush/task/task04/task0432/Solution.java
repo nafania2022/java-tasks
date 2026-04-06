@@ -10,14 +10,6 @@ import java.io.*;
 
 public class Solution {
     public static void main(String[] args) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        String a = reader.readLine();
-        int b = Integer.parseInt(reader.readLine());
-
-        while (b > 0) {
-            System.out.println(a);
-            b--;
-        }
     }
 }

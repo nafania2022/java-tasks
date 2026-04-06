@@ -10,22 +10,11 @@ import java.util.Set;
 
 public class Solution {
     public static HashSet<Integer> createSet() {
-        HashSet<Integer> set = new HashSet<>();
-        for (int i =0;i<20;i++){
-            set.add(i);
-        }
-        return set;
+
     }
 
     public static HashSet<Integer> removeAllNumbersMoreThan10(HashSet<Integer> set) {
 
-        Iterator<Integer> iterator = set.iterator();
-
-        while (iterator.hasNext()){
-            if (iterator.next()>10)
-                iterator.remove();
-        }
-        return set;
     }
 
     public static void main(String[] args) {

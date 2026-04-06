@@ -10,12 +10,12 @@ public class Cat {
     }
 
     protected void finalize() throws Throwable {
-        System.out.println("Cat was destroyed");
+
     }
 }
 
 class Dog {
     protected void finalize() throws Throwable {
-        System.out.println("Dog was destroyed");
+
     }
 }

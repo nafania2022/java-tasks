@@ -12,16 +12,6 @@ import java.util.List;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        List<String> list = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        for (int i = 0; i < 5; i++) {
-            list.add(reader.readLine());
-        }
-        list.remove(2);
-
-        for (int i = 3; i >= 0; i--) {
-            System.out.println(list.get(i));
-        }
     }
 }

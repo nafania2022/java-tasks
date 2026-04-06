@@ -13,6 +13,6 @@ public class Solution {
     }
 
     public int getValue() {
-        return C;
+
     }
 }

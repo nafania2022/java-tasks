@@ -11,27 +11,6 @@ import java.util.List;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        List<String> list = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        list.add(reader.readLine());
-        list.add(reader.readLine());
-        list.add(reader.readLine());
-        list.add(reader.readLine());
-        list.add(reader.readLine());
-
-        int maxL = 0;
-
-        for (int i = 0; i < 5; i++) {
-            if (maxL < (list.get(i)).length()) {
-                maxL = list.get(i).length();
-            }
-        }
-        for (int i = 0; i < 5; i++) {
-            if (list.get(i).length() == maxL) {
-                System.out.println(list.get(i));
-
-            }
-        }
     }
 }

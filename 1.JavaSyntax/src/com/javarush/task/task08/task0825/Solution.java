@@ -15,11 +15,10 @@ public class Solution {
     }
 
     public int getValue() {
-        return D;
+
     }
 
     public int getValue2() {
-        return C;
+
     }
 }
-

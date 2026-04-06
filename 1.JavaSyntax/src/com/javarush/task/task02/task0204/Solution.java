@@ -5,10 +5,6 @@ package com.javarush.task.task02.task0204;
 */
 public class Solution {
     public static void main(String[] args) {
-        Man man = new Man();
-        Woman woman = new Woman();
-        Man.wife = woman;
-        Woman.husband = man;
     }
 
     public static class Man {
